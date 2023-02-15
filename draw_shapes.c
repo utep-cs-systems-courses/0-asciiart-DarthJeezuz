@@ -25,4 +25,34 @@ void print_triangle(int leftCol, int size)
     putchar('\n');
   }
 }
+// Function to print arrow
+void print_arrow(int leftCol, int size)
+{
+  print_triangle(leftCol, size);
+  print_square(leftCol+3, size);
+}
 
+// print checkar pattern
+//void print_checkar(int leftCol, int size)
+//{
+  //  int i, j;
+  // for (int row = 0;row < size; row++)
+    // {
+      // int col;
+      //  for (col = 0; col < leftCol; col++)
+	//	{
+	  // if (row % 2 == 0)
+	    //{
+	      //  if (col % 2 == 0)
+		//		{
+		  // putchar('#');
+		  //	}
+	      //	      else
+		//		{
+		  // putchar(' ');
+		  //	}
+	      // }
+	  //	}
+      // }
+  // putchar('\n');
+  //}
